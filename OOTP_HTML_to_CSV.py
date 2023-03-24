@@ -5,14 +5,14 @@ from tkinter import *
 
 # Tkinter setup
 root = Tk()
-root.title('OOTP 23 HTML2CSV')
+root.title('OOTP 24 HTML2CSV')
 root.geometry('340x290+10+10')
 root.resizable(width=False, height=False)
 root.iconbitmap('ootp.ico')
 
 # Tkinter objects
 # Text
-header = Label(root, text="OOTP 23 HTML2CSV")
+header = Label(root, text="OOTP 24 HTML2CSV")
 header.configure(font=("Arial", 20))
 header.place(x=32, y=5)
 text1 = Label(root, text="HTML File Name:")
